@@ -1,0 +1,435 @@
+.screen{
+    background-image: url("../img/backgroung\ img.jpg");
+    background-size: 100% 900px;
+    /* baground size is  width height here width 100percent and height 900px whereas container size is given as same as background size height */
+    height: 900px;
+    border-bottom: 7.5px solid rgb(42,40,43);
+}
+ 
+/* this screen-child is given to give a shading on top of that image */
+.screen-child{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0,0,0,0,0.217);
+}
+
+.navbar{
+    height: 80px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    /* display space around nav-child */
+    /* background-color: antiquewhite; */
+}
+
+.nav-child{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.nav-logo{
+    width: 150px;
+}
+/* nav-logo is a container by setting its width it wont change the size of the image for that we need to call them seperately*/
+
+.nav-logo img{
+    width:100%
+}
+
+.nav-select{
+    display: flex;
+    /* to align select box and button as row */
+}
+.nav-select select{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid grey;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 6px 15px;
+    /* padding with two values */
+    margin-right: 20px;
+}
+.nav-select button{
+    color:white;
+    background-color: rgba(223,26,26,0.945);
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 6px 15px;
+}
+
+.main{
+    height: 500px;
+    width:70%;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+    /* background-color: blue; */
+    margin-left: 220px;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+ .main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+    /* margin-left: 150px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+/* .child2 h1{
+    margin-left: 450px;
+} */
+
+.main p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+.child4 p{
+    font-size: 25px;
+}
+
+.child5{
+    display: flex;
+    justify-content:center;
+}
+
+.child5 button{
+    color:white;
+    background-color: rgba(223,26,26,0.945);
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 150px;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 6px 15px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.child5 input{
+    width: 350px;
+    height: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0,0,0,0,0.217);
+}
+
+.second-part{
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 7.5px solid rgb(42 40 40);
+    
+}
+
+.second-part1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: aqua; */
+}
+
+.second-part1-text{
+    width:50%;
+    color: white;
+    /* background-color: yellow; */
+}
+.second-part1-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second-part1-text p{
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.second-part1-content {
+    width: 50%;
+    display: flex;
+}
+
+.second-part1-content img{
+    width: 100%;
+    z-index: 1;
+}
+
+.second-part1-content video{
+    width: 80%;
+    margin-left: -550px;
+    bottom: 12px;
+}
+
+.third-part{
+    height: 800px;
+    background-color: black;
+    border: 7.5px solid rgb(42 40 40);
+    display: flex;
+    justify-content: space-around;
+}
+.third-part1{
+    width:85%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-part1-img{
+    width: 50%;
+    display: flex;
+    
+    
+}
+.img-box-main{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height:90px;
+    width: 300px;
+    box-shadow: 10px;
+    display: flex;
+    /* justify-content: center; */
+    background-color: black;
+    margin-left: -450px;
+    margin-top: 310px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.img-box-main-child{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-color: green; */
+    margin-left: 10px;
+}
+.img-box{
+    height:80px;
+    /* border: 1px solid blue;  */
+     /* padding: 10px; */
+}
+
+.img-box img{
+    width: 60px;
+    /* padding:10px; */
+
+}
+.img-box-main-content{
+    color: white;
+    padding-left: 10px;
+    
+}
+.img-box-main-content h5{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.img-box-main-content p{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+}
+.fa-solid{
+    color:white;
+    padding-left: 40px;
+}
+
+
+.third-part1-text{
+    width: 50%;
+    color: white;
+}
+.third-part1-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.third-part1-text p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.fourth-part{
+    height: 800px;
+    background-color: black;
+    border: 7.5px solid rgb(42 40 40);
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-part-child{
+    width: 85%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-part-child-text{
+    width: 50%;
+    /* background-color: yellow; */
+    color: white;
+}
+.fourth-part-child-text h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.fourth-part-child-text p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourth-part-child-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-part-child-img img{
+    width: 100%;
+    z-index: 1;
+}
+.fourth-part-child-img video{
+    width: 65%;
+    height:80%;
+    margin-left: -525px;
+    margin-top: 40px;
+    /* bottom: 12px; */
+}
+
+.fifth-part{
+    height: 800px;
+    background-color: black;
+    border: 7.5px solid rgb(42 40 40);
+    display: flex;
+    justify-content: space-around;
+}
+.fifth-part-child{
+    width:85%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-part-child-text{
+    width:50%;
+    color: white;
+}
+.fifth-part-child-text h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.fifth-part-child-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.fifth-part-child-img{
+    width: 50%;
+}
+
+
+.final-part{
+    height: 700px;
+    background-color: black;
+    border: 7.5px solid rgb(42 40 40);
+    display: flex;
+    justify-content: space-around;
+}
+
+.final-part-child{
+    width:85%;
+    /* background-color: aqua; */
+    /* display: flex;  */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    margin: 0 auto;
+    text-align: center;
+}
+.final-part-child p{
+    color: white;
+}
+.final-part-child1{
+    width: 30%;
+    /* background-color: brown; */
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: underline; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.final-part-child2,.final-part-child3,.final-part-child4{
+    width: 20%;
+    /* background-color: brown; */
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+/* .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-language {
+    margin: 20px 0;
+}
+
+.footer-country p {
+    margin: 20px 0;
+}
+Sa */
